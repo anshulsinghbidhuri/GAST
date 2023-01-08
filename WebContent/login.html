@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAT</title>
+    <link rel="stylesheet"type="text/css"href="logincss.css">
+</head>
+<body>
+    <h1>WELCOME TO GSAT</h1>
+    <div>
+        <div id="mySidenav" class="sidenav">
+            <a href="adminlogin.html" id="adminlogin">A<br>D<br>M<br>I<br>N<br> <br>L<br>O<br>G<br>I<br>N</a>
+        </div> 
+        <div class="box">
+            <p>GSAT is India’s leading online travel booking brand providing range of choice for hotels, flights, trains, bus and cars for travelers. Our core value differentiator is the most trusted user experience, be it in terms of quickest search and booking, fastest payments, settlement or refund processes. Through GoStays, our customers enjoy standardised stay experience at certified hotel properties. With industry first virtual travel booking currency GoCash and travel social network, GoCash+ Rewards – GSAT is the number one choice for new India on the move.</p>
+        </div>
+    <div class="box1">
+        <h1 class="formheading">LOGIN</h1>
+        <form id="loginf" method="post" action="LoginServlet">
+        <Label class="label1">EMAIL ID  :</Label>
+        <br>
+        <input type="email" id="uid" name="uid" required/> 
+        <br><br> 
+        <Label class="label2">PASSWORD  :</Label>
+        <br>
+        <input type="password" name="password" pattern="[A-Za-z\d\.]{5,13}"required/> 
+        <br><br>
+        <button type="submit">LOGIN</button>
+        <br><br><br><br>
+        <a class="registera" href="register.html"><b>NEW USER - REGISTER</b></a>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

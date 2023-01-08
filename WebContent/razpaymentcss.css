@@ -1,0 +1,17 @@
+body{
+	background: url(10.jpg);
+    	
+	background-position:center;
+	background-size: cover;
+}
+div.main{
+	max-width: 800px;
+	margin: auto;
+	background:rgba(0,0,0,0.8);
+    box-sizing:content-box;
+    border-radius:20px;
+    padding:50px;
+    color:#fff;
+    margin-top:200px;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+body{
+	background: url(ADMIN.jpg);  	
+	background-position:center;
+	background-size:cover;
+}
+div{
+    text-align:center;
+    width:1400px;
+    height:550px;
+    border-radius:100px;
+    background:rgba(0,0,0,0.8);
+    margin:100px 250px;
+    padding: 50px 10px;
+    border-style: solid;
+    border-color: grey;
+    border-width:5px;
+}
+input[type=submit]{
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px;
+    font-weight:bolder;
+    text-decoration:none;
+    color:white;
+    background:rgba(44, 43, 43, 0.7);
+    padding: 5px 20px;
+    border: 9px solid rgba(255, 255, 255, 0.425);
+    border-radius:15px;
+    transition:0.5s;
+    margin:20px 50px;
+}
+input[type=submit]:hover{
+    transform:scale(1.1);
+    background:white;
+    color:black;
+    opacity:0.8;
+}
+a{
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight:bolder;
+    text-decoration:none;
+    color:white;
+    background:rgba(44, 43, 43, 0.7);
+    padding: 5px 20px;
+    border: 9px solid rgba(255, 255, 255, 0.425);
+    border-radius:5px;
+    transition:0.5s;
+}
+a:hover{
+    background:white;
+    color:black;
+    opacity:0.8;
+}
+p{
+    transition:0.5s;
+}
+p:hover{
+    transform:scale(1.1);
+}

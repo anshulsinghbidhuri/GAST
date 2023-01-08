@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet"type="text/css"href="paymentformcss.css">
+</head>
+<body>
+    <div class="main">
+        <h1><u>PAYMENT DETAILS</u></h1>
+        <form id="paymentf" method="post" action="PaymentServlet">
+        
+            <Label class="label1">NAME   :</Label>
+            <input type="text" id="name" name="name" title="Only characters are allowed" pattern="[A-Za-z]{3,20}" required/><br><br> 
+            <Label class="label2">MOBILE NUMBER  :</Label>
+            <input type="text" id="mobno" name="mobno" title="Only digits are allowed"pattern="\d{10,11}"required/><br><br>
+            <Label class="label3">EMAIL  :</Label>
+            <input type="email" id="uid" name="uid" required/><br><br>
+            <Label class="label4">DESTINATION  :</Label>
+            <select id="destination" name="destination">
+                <optgroup label="********TOUR DESTINATION********">
+                <optgroup label="-----NORTH INDIA">
+                    <optgroup label="HIMACHAL PRADESH">
+                    <option>MANALI</option>
+                    <option>KULLU</option>
+                    <option>SHIMLA</option>
+                    <option>DALHOUSIE</option>
+                    <option>KASAULI</option>
+                    </optgroup>
+                    <optgroup label="JAMMU AND KASHMIR">
+                    <option>LADAKH</option>
+                    <option>LEH</option>
+                    <option>KATRA</option>
+                    <option>JAMMU</option>
+                    <option>KARGIL</option>
+                    </optgroup>
+                    <optgroup label="RAJASTHAN">
+                    <option>MOUNT ABU</option>
+                    <option>JAIPUR</option>
+                    <option>CHITTORGARH</option>
+                    <option>RANTHAMBORE</option>
+                    <option>UDAIPUR</option>
+                    </optgroup>
+                    <optgroup label="UTTARAKHAND">
+                    <option>HARIDWAR</option>
+                    <option>MUSSOORIE</option>
+                    <option>NAINITAL</option>
+                    <option>RISHIKESH</option>
+                    <option>UTTARKASHI</option>
+                    </optgroup>
+                </optgroup>
+                <optgroup label="-----SOUTH INDIA">
+                    <optgroup label="ANDAMAN AND NICOBAR">
+                    <option>ROSS ISLAND</option>
+                    <option>HAVELOCK ISLAND</option>
+                    <option>ANDAMAN ISLAND</option>
+                    <option>PORT BLAIR</option>
+                    </optgroup>
+                    <optgroup label="KERALA">
+                    <option>MUNNAR</option>
+                    <option>THEKKADY</option>
+                    <option>KUMARAKOM</option>
+                    </optgroup>
+                    <optgroup label="LAKSHADWEEP ISLAND">
+                    <option>LAKSHADWEEP ISLAND</option>
+                    </optgroup>
+                    <optgroup label="KARNATAKA">
+                    <option>BENGALURU</option>
+                    <option>MYSORE</option>
+                    <option>BANDIPUR</option>
+                    <option>HAMPI</option>
+                    </optgroup>
+                </optgroup>
+                <optgroup label="-----WEST INDIA">
+                    <optgroup label="GOA">
+                    <option>GOA</option>
+                    </optgroup>
+                    <optgroup label="GUJARAT">
+                    <option>BHUJ</option>
+                    <option>SOMNATH</option>
+                    <option>SASANGIR</option>
+                    <option>RAJKOT</option>
+                    </optgroup>
+                    <optgroup label="DADRA AND NAGAR HAVELI">
+                    <option>DADRA AND NAGAR HAVELI</option>
+                    </optgroup>
+                    <optgroup label="DAMAN AND DIU">
+                    <option>DAMAN AND DIU</option>
+                    </optgroup>
+                </optgroup>
+                <optgroup label="-----EAST INDIA">
+                    <optgroup label="JHARKHAND">
+                    <option>JAMSHEDPUR</option>
+                    <option>DHANBAD</option>
+                    <option>RANCHI</option>
+                    </optgroup>
+                    <optgroup label="ORISSA">
+                    <option>BHUBANESWAR</option>
+                    <option>CUTTACK</option>
+                    <option>PURI</option>
+                    <option>KONARK</option>
+                    </optgroup>
+                    <optgroup label="WEST BENGAL">
+                    <option>SILIGURI</option>
+                    <option>MALDA</option>
+                    <option>MURSHIDABAD</option>
+                    <option>DARJEELING</option>
+                    </optgroup>
+                </optgroup>
+                <optgroup label="-----NORTH EAST INDIA">
+                    <optgroup label="MIZORAM">
+                    <option>MIZORAM</option>
+                    </optgroup>
+                    <optgroup label="NAGALAND">
+                    <option>NAGALAND</option>
+                    </optgroup>
+                    <optgroup label="SIKKIM">
+                    <option>LACHUNG</option>
+                    <option>PELLING</option>
+                    <option>GANGTOK</option>
+                    </optgroup>
+                    <optgroup label="MEGHALYA">
+                    <option>SHILLONG</option>
+                    <option>CHERRAPUNJI</option>
+                    <option>MAWLYNNONG</option>
+                    </optgroup>
+                </optgroup>
+                <optgroup label="-----CENTRAL INDIA">
+                    <optgroup label="CHHATTISGARH">
+                    <option>RAIGARH</option>
+                    <option>RAIPUR</option>
+                    </optgroup>
+                    <optgroup label="MADHYA PRADESH">
+                    <option>JABALPUR</option>
+                    <option>INDORE</option>
+                    <option>GWALIOR</option>
+                    <option>UJJAIN</option>
+                    <option>BANDHAVGARH</option>
+                    </optgroup>
+                </optgroup>
+            </optgroup>
+            <optgroup label="**********PACKAGES***********">
+                <option> ADVENTURE TOURISM PACKAGE</option>
+                <option> WILDLIFE TOURISM PACKAGE</option>
+                <option> MEDICAL TOURISM PACKAGE</option>
+                <option> ECO TOURISM PACKAGE</option>
+                <option> CRUISE TOURISM PACKAGE</option>
+            </optgroup>
+            </select><br><br>
+            <Label class="label5">FROM :</Label>
+            <input type="date" id="from" name="from" required/><br><br> 
+            <Label class="label6">TO :</Label>
+            <input type="date" id="to" name="to" required/><br><br> 
+            <Label class="label6">PAN CARD *:</Label>
+            <input type="file" id="pan" name="pan" /><br><br>
+        <input type="submit" value="CHECK OUT">
+        <br><br><br><br>
+        <a href="home.html"><b>BACK</b></a>
+        </form>
+        </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet"type="text/css"href="feedbackcss.css">
+</head>
+<body>
+    <div class="main">
+        <h1>GIVE US YOUR VALUABLE FEEDBACK</h1>
+        <form id="feedbackf" action="FeedbackkServlet" method="post" >
+        <Label class="label1">NAME  :</Label><br>
+        <input type="text" id="name" name="name" required/> 
+        <br><br> 
+        <Label class="label2">EMAIL ID  :</Label><br>
+        <input type="email" id="uid" name="uid" required/> 
+        <br><br> 
+        <Label class="label3">FEEDBACK  :</Label>
+        <br>
+        <textarea id="feedback" name="feedback" required ></textarea> 
+        <br><br>
+        <input type="submit" value="SUBMIT">
+        <br><br><br><br>
+        <a href="home.html"><b>BACK</b></a>
+        </form>
+        </div>
+</body>
+</html>

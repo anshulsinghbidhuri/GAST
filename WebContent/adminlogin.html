@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN LOGIN</title>
+    <link rel="stylesheet"type="text/css"href="adminlogincss.css">
+</head>
+<body>
+    <a href="login.html">BACK</a>
+    <div class="main">
+        <h1>LOGIN TO SEE THE DATA</h1>
+        <form id="adminloginf" method="post" action="AdminServlet">
+        <select>
+        <option>SHIVAM SINGH</option>
+        <option>GAGANDEEP BHASKAR</option>
+        <option>ANSHUL SINGH</option>
+        </select><br><br>
+        <Label class="label2">Password  :</Label>
+        <br>
+        <input type="password" name="password" id="password" pattern="[A-Za-z\d\.]{5,13}"required/> 
+        <br><br>
+        <input type="submit" value="LOGIN">
+        </form>
+        </div>
+</body>
+</html>

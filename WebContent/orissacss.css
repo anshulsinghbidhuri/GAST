@@ -1,0 +1,92 @@
+body{
+    background-image: url(10.jpg);
+    background-position:center ;
+    background-size:cover;
+}
+.box{
+    width:350px;
+    height:500px;
+    display:inline-block;
+    border-radius:10px;
+    padding:15px 15px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:60px 15px;
+    background-image:url(9.jpg);
+    background-position: center;
+    background-size:cover;
+    transition:0.5s;
+    border-style:groove;
+    text-align:center;
+    vertical-align: top;
+}
+.box:hover{
+transform:translateY(-20px);
+}
+.box1{
+    background-image:url(bhubaneswar\ \(3\).jpg);
+}
+.box2{
+    background-image:url(cuttack\ \(3\).jpg);
+}
+.box3{
+    background-image:url(ranchi\ \(3\).jpg);
+}
+.box4{
+    background-image:url(konark\ \(3\).jpg);
+}
+.box5{
+    background-image:url(NEI.jpg);
+}
+.box6{
+    background-image:url(CI.jpg);
+}
+h4{
+    font-size:40px;
+    color:white;
+    font-weight:bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    font-weight:bolder;
+    font-size:70px;
+    color:white;
+    word-spacing:25px;
+    letter-spacing:10px;
+    margin:20px 0px;
+    text-decoration:underline;
+    text-underline-offset: 15px;
+    text-decoration-style: double;
+}
+a{
+    font-size:20px;
+    font-family:cursive;
+    font-weight:bolder;
+    text-decoration:none;
+    color:white;
+    border-radius:8px;
+    opacity:0.8;
+    transition:0.5s;
+}
+.hh{
+    font-size:20px;
+    font-family:cursive;
+    font-weight:bolder;
+    text-decoration:none;
+    color:white;
+    padding: 5px 20px;
+    border: 8px solid white;
+    border-radius:8px;
+    opacity:0.8;
+    margin-right:30px;
+    margin-top:30px;
+    float:right;
+    transition:0.5s;
+}
+.hh:hover{
+    background:white;
+    color:black;
+    opacity:0.8
+}

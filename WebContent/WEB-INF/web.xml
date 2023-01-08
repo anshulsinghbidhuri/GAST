@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>CollegeProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>FeedbackkServlet</servlet-name>
+    <servlet-class>FeedbackkServlet</servlet-class> 
+    </servlet>
+    <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class> 
+    </servlet>
+    <servlet>  
+	<servlet-name>RegisterServlet</servlet-name>  
+	<servlet-class>RegisterServlet</servlet-class>  
+</servlet>  
+<servlet>
+    <servlet-name>Display1</servlet-name>
+    <servlet-class>Display1</servlet-class> 
+    </servlet>
+    <servlet>
+    <servlet-name>Display2</servlet-name>
+    <servlet-class>Display2</servlet-class> 
+    </servlet>
+    <servlet>
+    <servlet-name>Display3</servlet-name>
+    <servlet-class>Display3</servlet-class> 
+    </servlet>
+    <servlet>
+    <servlet-name>Display4</servlet-name>
+    <servlet-class>Display4</servlet-class> 
+    </servlet>
+     <servlet>
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>PaymentServlet</servlet-class> 
+    </servlet>
+     <servlet>
+    <servlet-name>QueryServlet</servlet-name>
+    <servlet-class>QueryServlet</servlet-class> 
+    </servlet>
+ <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>AdminServlet</servlet-class> 
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>FeedbackkServlet</servlet-name>
+    <url-pattern>/FeedbackkServlet</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping> 
+  <servlet-name>RegisterServlet</servlet-name>  
+	<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	 <servlet-mapping>
+    <servlet-name>Display1</servlet-name>
+    <url-pattern>/Display1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Display2</servlet-name>
+    <url-pattern>/Display2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Display3</servlet-name>
+    <url-pattern>/Display3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Display4</servlet-name>
+    <url-pattern>/Display4</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>PaymentServlet</servlet-name>
+    <url-pattern>/PaymentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>QueryServlet</servlet-name>
+    <url-pattern>/QueryServlet</url-pattern>
+    </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

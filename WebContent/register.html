@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+<link rel="stylesheet"type="text/css"href="registercss.css">
+<script>
+    function checkpassword(){
+        if (document.getElementById('password').value!=document.getElementById('conpassword').value){
+        alert("Passwords are not matching");
+        return false;
+        }
+    }
+</script>
+</head>
+<body>
+<div class="main">
+<h1><u>Register Yourself</u></h1>
+<form id="registerf"  action="RegisterServlet "method="post" onsubmit="return checkpassword()">  
+<Label class="label1">NAME   :</Label>
+<input type="text" id="name" name="name" title="Only characters are allowed" pattern="[A-Za-z]{3,20}" required/><br><br> 
+<Label class="label2">DOB  :</Label>
+<input type="date" id="dob" name="dob" required/><br><br>
+<Label class="label3">GENDER  :</Label>
+<select>
+<option>MALE</option>
+<option>FEMALE</option>
+<option>Don't Want To Disclose</option>
+</select><br><br>
+<Label class="label4">MOBILE NUMBER  :</Label>
+<input type="text" id="mobno" name="mobno" title="Only digits are allowed"pattern="\d{10,11}"required/><br><br>
+<Label class="label5">USER ID/ EMAIL  :</Label>
+<input type="email" id="uid" name="uid" required/><br><br> 
+<Label class="label6">PASSWORD  :</Label>
+<input type="password" id="password" name="password" pattern="[A-Za-z\d\.]{5,13}"required/><br> <br>
+<Label class="label7">CONFIRM PASSWORD  :</Label>
+<input type="password" id="conpassword" name="conpassword" pattern="[A-Za-z\d\.]{5,13}" required/><br><br>
+<input type="submit" value="REGISTER"/> <input type="reset" value="CLEAR"/><br><br><br><br>
+<a href="login.html"><b>EXISTING USER - LOGIN</b></a> 
+</form>  
+</div>
+</body>
+</html>

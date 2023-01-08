@@ -1,0 +1,139 @@
+body{
+    background-image: url(ABOUTUS.jpg);
+    background-position:center ;
+    background-size:cover;
+}
+.box{
+    width:1100px;
+    height:450px;
+    border-radius:10px;
+    padding:15px 25px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:0px 40px;
+    float:left;
+}
+.boxx{
+    text-align:center;
+    width:500px;
+    height:600px;
+    border-radius:10px;
+    padding:15px 25px;
+    float:right;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.4);
+    cursor:pointer;
+    margin:30px 40px;
+    transition:0.5s;
+    border-style: solid;
+    border-color: grey;
+    border-width:3px;
+ }
+.boxxx{
+    width:1800px;
+    height:400px;
+    background-image:url(SOCIAL.jpg); 
+    background-position: center;
+    background-size:cover;
+    display:inline-block;
+    margin:50px 20px;
+    border:5px solid grey;
+    border-radius:10px;
+ }
+ .imgbox{
+    text-align:center;
+    width:1100px;
+    height:300px;
+    border-radius:10px;
+    padding:10px 25px;
+    background:rgba(0,0,0,0.4);
+    transition:0.5s;
+    float:left;
+    margin:0px 50px;
+    border-style: solid;
+    border-color: grey;
+    border-width:3px;
+ }
+ .follow{
+     width:450px;
+     height:300px;
+     display:inline-block;
+     margin:40px 50px;
+     text-align:center;
+     background-color: rgba(0,0,0,0.8);
+     vertical-align: middle;
+     border-radius:10px;
+     border:3px solid white;
+ }
+ img{
+    display:inline-block;
+    width:150px;
+    height:150px;
+    margin:0px 20px;
+    border: solid purple;
+    border-radius:10px;
+}
+.heading{
+    margin-top:50px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color:white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    word-spacing:20px;
+}
+a{
+    font-family:cursive;
+    font-size:large;
+    font-weight:bolder;
+    text-decoration:none;
+    color:white;
+    padding: 5px 20px;
+    border: 4px solid rgba(255, 255, 255, 0.425);
+    border-radius:5px;
+    float:right;
+    margin:10px 20px;
+}
+a:hover{
+    background:white;
+    color:black;
+    opacity:0.8
+}
+h2{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    color:white;
+    font-family:cursive;
+    font-size:30px;
+}
+h3{
+    text-decoration: underline;
+    text-decoration-style: double;
+    color:white;
+    font-family:cursive;
+    font-size:30px;
+}
+h4{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color:white;
+    font-family:cursive;
+    font-size:23px;
+}
+p{
+    color:white;
+    font-weight:bolder;
+    font-family:cursive;
+    font-size:x-large;
+    word-spacing:5px;
+}
+.link{
+    color:white;
+    font-weight:bolder;
+    font-family:cursive;
+    font-size:18px;;
+    word-spacing:5px;
+}

@@ -1,0 +1,101 @@
+body{
+	background: url(ADMIN.jpg);  	
+	background-position:center;
+	background-size:cover;
+}
+div{
+    text-align:center;
+    width:1400px;
+    height:620px;
+    border-radius:100px;
+    background:rgba(0,0,0,0.8);
+    margin:100px 250px;
+    padding: 20px 10px;
+    border-style: solid;
+    border-color: grey;
+    border-width:5px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:80px;
+    color:white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-underline-offset: 10px;
+}
+input[type=submit]{
+    width:20%;
+    box-sizing:border-box;
+    font-family:cursive;
+    font-weight:bolder;
+    padding:10px;
+    margin-top:30px;
+    opacity:0.8;
+    outline:none;
+    border:none;
+    background:#60adde;
+    border-radius:20px;
+    font-size:20px;
+    color:black;   
+    border:3px solid grey;
+    transition:0.5s;
+}
+input[type=submit]:hover{
+    background:#003366;
+    opacity:0.8;
+    color:white;
+}
+input[type=password]{
+    width:50%;
+    box-sizing:border-box;
+    padding:10px;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:30px; 
+    font-family:cursive;
+    font-weight:bolder;  
+    letter-spacing: 15px;
+    border:3px solid black; 
+}
+select{
+    text-align:center;
+    width:50%;
+    padding:10px;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:30px; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder; 
+    letter-spacing: 15px;
+    border:3px solid black;  
+}
+label{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+a{
+    float:right;
+    margin:0px 10px;
+    font-family:cursive;
+    font-size:20px;
+    font-weight:bolder;
+    text-decoration:none;
+    color:white;
+    background:rgba(44, 43, 43, 0.7);
+    padding: 5px 20px;
+    border: 3px solid rgba(255, 255, 255, 0.425);
+    border-radius:5px;
+    transition:0.5s;
+}
+a:hover{
+    background:white;
+    color:black;
+    opacity:0.8;
+}
